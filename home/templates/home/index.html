@@ -6,8 +6,9 @@
 {% endblock %}
 
 {% block content %}
-    <div class="h1">Home page</div>
-    <a href="{% url 'calculate' %}">Long task</a>         
+    <div class="h1">Home page</div> 
+    <a href="{% url 'send_mail_func' %}" class="btn btn-info">send mail</a>
+    <a href="{% url 'page_two' %}" class="btn btn-info">page 2</a>          
 {% endblock %}
 
 {% block extra_js %}              
